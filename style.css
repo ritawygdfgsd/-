@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-title {
+    margin: 0 0 20px;
+    font-size: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.news {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card h3 {
+    font-size: 21px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.date {
+    color: #777;
+    font-size: 14px;
+}
+
+.important {
+    border: 3px solid #e63946;
+    background-color: #fff0f0;
+}
+
+.important h3::before {
+    content: "ВАЖЛИВО: ";
+    color: #e63946;
+}
+
+main > p { /* посилання на джерело */
+    text-align: center;
+    margin-top: 30px;
+}
+
+main > p a {
+    color: #0066cc;
+}
